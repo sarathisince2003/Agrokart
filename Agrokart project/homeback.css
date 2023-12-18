@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(pad.jpg);
+    background-size: cover;
+    margin: auto;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:30s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate
+{
+    0%{
+        background-image: url(pad.jpg);
+    }
+    25%{
+        background-image: url(homeback3.jpg);
+    }
+    50%{
+        background-image: url(homeback4.jpg);
+    }
+    75%{
+        background-image: url(homeback5.jpg);
+    }
+    
+}
+
+.head{
+    height: 80px;
+    width: 100%;
+    background-color:chartreuse; 
+}
+.head img{
+    background-image: url(logo.jpg);
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    float: left;
+   
+}
+.head h1{
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+.cat{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 15%;
+    height: 10%;
+    background-color:aquamarine;
+    border-radius: 20px;
+}
+.cat h2{
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.cat li{
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10%;
+    font-weight: 500;
+    font-style:italic;
+    list-style: none;
+    position: relative;
+}
+.cat a{
+    text-decoration:aliceblue;
+
+}
+
+

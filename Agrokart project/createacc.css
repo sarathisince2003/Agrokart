@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(createaccback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+}
+.head{
+    height: 80px;
+    width: 100%;
+    background-color:chartreuse;
+}
+.head img{
+    background-image: url(logo.jpg);
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    float: left;
+   
+}
+.head h1{
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+.sign{
+   
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 40%;
+    height: 40%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position:absolute;
+    top: 150px;
+    left: 100px;
+}
+.sign img{
+    background-image: url(log.jpg);
+    height: 130px;
+    width: 130px;
+    margin-left: 5%;
+    margin-top: 10%;
+    float: left;
+}
+.email{
+    margin-left: 30%;
+    margin-top: 15%;
+    font-size-adjust: none;
+
+}
+.pass{
+        margin-left: 30%;
+        margin-top: 5%;
+        font-size:large;
+
+    
+}
+.but
+{
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 50%;
+}

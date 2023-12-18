@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(aftercreateback.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+}
+.head{
+    height: 80px;
+    width: 100%;
+    background-color:chartreuse;
+}
+.head img{
+    background-image: url(logo.jpg);
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    float: left;
+   
+}
+.head h1{
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+.sign{
+   
+    margin-left: 30%;
+    margin-top: 8%;
+    width: 30%;
+    height: 30%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position:absolute;
+    top: 150px;
+    left: 100px;
+}
+.acc
+{
+    margin-top: 10%;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 200%;
+}
+
+.but a
+{
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 40%;
+    text-decoration:aliceblue;
+    background-color: aliceblue;
+}

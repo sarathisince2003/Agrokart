@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(wrongback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+}
+.head{
+    height: 80px;
+    width: 100%;
+    background-color:chartreuse;
+}
+.head img{
+    background-image: url(logo.jpg);
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    float: left;
+   
+}
+
+.head h1{
+    font-size: 300%;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px; 
+}
+.wrsign
+{
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 40%;
+    height: 40%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color:aliceblue;
+    border-radius: 20px;
+    position:absolute;
+    top: 150px;
+    left: 100px;
+    font-size:200%;
+}
+.wrsign img{
+    background-image: url(wrsign.png);
+    height: 50%;
+    width: 20%;
+    margin-left: 3%;
+    margin-top: 10%;
+    float: left;
+   
+}
+.but a{
+    text-decoration:aliceblue;
+    margin-left: 40%;
+}

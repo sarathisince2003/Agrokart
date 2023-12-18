@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-image: url(manback.jpg);
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed;
+}
+.head{
+    height: 80px;
+    width: 100%;
+    background-color:chartreuse;
+}
+.head img{
+    background-image: url(logo.jpg);
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    float: left;
+   
+}
+.head h1{
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+.cat{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 15%;
+    height: 65%;
+    background-color:aquamarine;
+    border-radius: 20px;
+    position:fixed;
+}
+.cat h2{
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.cat li{
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 10%;
+    font-weight: 500;
+    font-style:italic;
+    list-style: none;
+    position: relative;
+}
+.cat a{
+    text-decoration:aliceblue;
+
+}
+.man1{
+   
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    background-color:white;
+    border-radius: 20px;
+    position:absolute;
+    top: 150px;
+    left: 100px;
+}
+.man1 li{
+   
+    font-size: 20px;
+    padding: 2px;
+    height: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-weight: 500;
+    font-style:italic;
+    list-style:none ;
+}
+.but{
+    text-align:center;
+}
+.mancow{
+   
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    background-color:white;
+    border-radius: 20px;
+    position:absolute;
+    top: 700px;
+    left: 100px;
+}
+.mancow li{
+   
+    font-size: 20px;
+    padding: 2px;
+    height: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-weight: 500;
+    font-style:italic;
+    list-style:none ;
+}
+.butt{
+    text-align:center;
+}
+.mancom{
+   
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    background-color:white;
+    border-radius: 20px;
+    position:absolute;
+    top: 1250px;
+    left: 100px;
+}
+.mancom li{
+   
+    font-size: 20px;
+    padding: 2px;
+    height: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-weight: 500;
+    font-style:italic;
+    list-style:none ;
+}
+.buttt{
+    text-align:center;
+}
+.mannpk{
+   
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    background-color:white;
+    border-radius: 20px;
+    position:absolute;
+    top: 1800px;
+    left: 100px;
+}
+.mannpk li{
+   
+    font-size: 20px;
+    padding: 2px;
+    height: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-weight: 500;
+    font-style:italic;
+    list-style:none ;
+}
+.butttt{
+    text-align:center;
+}
+.man1 img{
+    background-image: url(man1.jpg);
+    height: 220px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 80px;
+    float: left;
+}
+.mancow img{
+    background-image: url(mancow.jpg);
+    height: 220px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 80px;
+    float: left;
+}
+.mancom img{
+    background-image: url(mancom.jpg);
+    height: 250px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 80px;
+    float: left;
+}
+.mannpk img{
+    background-image: url(mannpk.jpg);
+    height: 220px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 80px;
+    float: left;
+}
+
+
